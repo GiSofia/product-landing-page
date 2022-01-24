@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Product Landing Page</title>
+</head>
+<body>
+    <div class="page-wrapper">
+        <header id="header">
+            <div class="logo">
+                <img id="header-img" src="./assets/Neutral Minimal Aesthetic Feminine Fashion Logo (1).png" alt="logo de gigi shops">
+            </div>
+            <nav id="nav-bar">
+                <ul>
+                    <li>
+                        <a class="nav-link" href="#features">Servicio</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#how-it-works">Nosotros</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#pricing">Precios</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section id="consult">
+            <h2>Ropa, calzado & accesorios</h2>
+            <form id="form" action=" https://www.freecodecamp.com/email-submit">
+                <input type="email" id="email" name="email" placeholder="Ingresa tu correo electrónico" required>
+                <input type="submit" id="submit" value="Obtener" class="btn">
+            </form>
+        </section>
+        <div class="container">
+            <section id="features">
+                <div class="grid">
+                    <div class="icon">
+                        <i class="fas fa-store fa-5x"></i>
+                    </div>
+                    <div class="description">
+                        <h2>Descripción</h2>
+                        <p>Ofrecemos ropa, calzado y accesorios de marcas reconocidas, especialmente americana.</p>
+                    </div>
+                </div>
+                <div class="grid">   
+                    <div class="icon">
+                        <i class="fas fa-truck fa-5x"></i>
+                    </div>
+                    <div class="description">
+                        <h2>Servicio de envío</h2>
+                        <p>El servicio de nuestro envío es de calidad y tratamos de enviar su pedido en el menor tiempo posible.</p>
+                    </div>
+                </div> 
+                <div class="grid"> 
+                    <div class="icon">
+                        <i class="fas fa-box-open fa-5x"></i>
+                    </div>
+                    <div class="description">
+                        <h2>Garantía</h2>
+                        <p>Por cada compra que realice de nuestros productos nos aseguraremos de que no haya daños o fallas en él, de ser así, se dará la garantía.</p>
+                    </div>
+                <div>
+            </section>
+            <section id="how-it-works">
+                <iframe id="video" height="315" src="https://www.youtube.com/embed/xFBt3Y4L4EA" frameborder="0" allowfullscreen="" target="_blank"></iframe>
+            </section>
+            <section id="pricing">
+                <div class="producto" id="ropa">
+                    <div class="level">Vestido floral de pecho fruncido de manga fruncido</div>
+                    <p>Estilo bohemio color amarillo con estampado floral de margarita, escote en 'v', corte del bajo campana, talle alto, de temporada de verano.</p>
+                    <img id="prod-img" src="./assets/cl1.webp" alt="Vestido">
+                    <button class="btn-prod">U$ 13.00</button>
+                    <button class="btn-prod"><a href="https://es.shein.com/pdsearch/Vestido%20floral%20de%20pecho%20fruncido%20de%20manga%20fruncido/?ici=s1`EditSearch`Vestido%20floral%20de%20pecho%20fruncido%20de%20manga%20fruncido`_fb`d0`PageRealClass&scici=Search~~EditSearch~~1~~Vestido_20floral_20de_20pecho_20fruncido_20de_20manga_20fruncido~~~~0" target="_blank">Ver más</a></button>
+                </div>
+                <div class="producto" id="calzado">
+                    <div class="level">Botines con tacón con cremallera</div>
+                    <p>Estilo de moda tipo botas de combate color blanco, con cremallera lateral, estampado liso. Tipo de tacón grueso, altura del tacón súper alto, material exterior de cuerina.</p>
+                    <img id="prod-img" src="./assets/s1.webp" alt="Botas">
+                    <button class="btn-prod">U$ 18.00</button>
+                    <button class="btn-prod"><a href="https://es.shein.com/pdsearch/Botines%20con%20tac%C3%B3n%20con%20cremallera/?ici=s1`EditSearch`Botines%20con%20tac%C3%B3n%20con%20cremallera`_fb`d0`PageHome&scici=Search~~EditSearch~~1~~Botines_20con_20tac_C3_B3n_20con_20cremallera~~~~0" target="_blank">Ver más</a></button>
+                </div>
+                <div class="producto" id="accesorios">
+                    <div class="level">Bolso círculo de paja</div>
+                    <p>Bolsa de paja estilo vacación, con un hermoso color camel con estampado liso, tamaño pequeño.</p>
+                    <img id="prod-img" src="./assets/blc1.webp" alt="Bolso">
+                    <button class="btn-prod">U$ 18.00</button>
+                    <button class="btn-prod"><a href="https://us.shein.com/pdsearch/Bolso%20c%C3%ADrculo%20de%20paja/?ici=s1`EditSearch`Bolso%20c%C3%ADrculo%20de%20paja`_fb`d0`PageSearchResult&scici=Search~~EditSearch~~1~~Bolso_20c_C3_ADrculo_20de_20paja~~~~0" target="_blank">Ver más</a></button>
+                </div>
+            </section> 
+            <footer>
+                <i id="icon-contact" class="fas fa-envelope"></i>
+                <a id="contacto" href="mailto:giulianasaborio@gmail.com" target="_blank">Contacto</a>
+                <span>Copyright 2022, Gigi Fashion Shop</span>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
